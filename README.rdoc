@@ -1,0 +1,19 @@
+== Tower Defense Simulator
+
+*Intro*
+This is a highly configurable tower defense game written in C++ with the QT framework in 2011.  The game involves enemies moving across the map, attempting to reach the end.  If killed before reaching the end, the user can purchase new towers, but if the enemies reach the end, the user loses health.
+
+*Enemies*
+Each enemy is sent out in configured waves.  Enemies can be colour coded and are shaded based on their specifications.  For example, airborne enemies are shaded with lines while ground enemies are solid.  Some enemies move faster than others, drop more money, and have more health.  The enemy colour will become darker as it takes more damage, until its HP is 0.
+
+*Towers*
+Each level has a maximum of 10 towers.  The values of a tower can be configured as follows: Cost, Firing Speed, Range, Splash Damage, Damage to Air, Damage to Ground, Wave Appearance (cannot be purchased after n wave, regardless of how much cash on hand).  Hover over a tower button to see the tooltip detailing its stats.
+
+*Highscores*
+If the td_highscore file is included, highscores are kept.  Highscores detailing the name, mapname, and score.
+
+*Configuration*
+By default, the application will load the tdmap file, if it exists.  However, any files can be loaded in-game using the load button.  The map files allow for the configuration of the types of waves and towers provided on a map.  In addition, it allows for the configuration of the actual shape of the map.  See the included tdmap file for details.
+
+*Running the Application*
+Double Click the tower_defense_phase application to run.  It will only run in a Linux environment with QT4 installed.  The source code and compiled files are included in the directory.

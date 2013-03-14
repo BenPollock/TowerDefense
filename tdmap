@@ -1,0 +1,11 @@
+# Map file tdmap SE2250 TD 2011
+# points:x1:y1:...:cash:escapees
+4:0:0:600:0:0:400:600:400:10:20
+# T:type:$:rng:d-air:d-gnd:splsh:cooldn
+T:1:10:90:0:5:0:5
+# W:type:hp:fly:spd:$:number:time:delay
+W:1:10:0:1.0:6:5:5:5
+W:2:20:1:2.5:10:5:5:10
+T:2:50:60:5:0:20:10
+T:3:100:50:5:10:0:15
+W:1:20:1:3:15:20:10:1
